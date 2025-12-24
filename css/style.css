@@ -62,7 +62,7 @@
     color: #001F51;
     font-size: 100px;
     font-weight: 400px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     line-height: 100px;
     letter-spacing: 0%;
 }
@@ -72,6 +72,7 @@
     color: #001F51;
     line-height: 56px;
     letter-spacing: 0%;
+    font-family: 'Inter', sans-serif;
 }
 .span_1{
     color: #d40000;
@@ -79,6 +80,7 @@
     font-size: 100px;
     font-weight: 400px;
     letter-spacing: 0%;
+    font-family: 'Inter', sans-serif;
 }
 .hero-text {
     color: #333;
@@ -118,16 +120,18 @@
 /* Image Styling */
 .about-img {
     border-radius: 20px !important;
-    width: 591px;
+    max-width: 583px;
     height: 887px;
     margin-bottom: -242px;
     margin-left: -32px;
+    object-fit: cover;
 }
 /* Title */
 .about-title {
     font-size: 50px;
     font-weight: 400;
     color: #0a2d5d;
+    font-family: 'Inter', sans-serif;
 }
 .about-title span {
     color: #d40000;
@@ -136,12 +140,14 @@
     font-size: 50px;
     line-height: 60px;
     letter-spacing: 0%;
+    font-family: 'Inter', sans-serif;
 }
 /* Text */
 .about-text {
-    color: #555;
+    color: #000000;
     line-height: 1.7;
     max-width: 520px;
+    font-family: 'Poppins', sans-serif;
 }
 /* Button */
 .btn-primary {
@@ -163,17 +169,20 @@
     font-size: 50px;
     font-weight: 400;
     color: #0a2d5d;
+    font-family: 'Inter', sans-serif;
 }
 .section-title span {
     color: #d40000;
     font-style: italic;
     font-weight: 400px;
+    font-family: 'Inter', sans-serif;
 }
 .section-subtitle {
     max-width: 700px;
     margin: 0 auto;
     color: #000000;
     line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
 }
 /* Card */
 .product-card {
