@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* Universal selector starts */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.html, body{
+    height:100%;
+    width:100%;
+    font-family: 'Poppins', sans-serif;
+    font-size:18px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 0 15px;
+    width: 100%;
+}
+/* Universal selector ends */
+/* Navbar styling starts */
+.navbar{
+    background-color: white;
+}
+.img_1{
+    width:208px;
+    height:59px;
+}
+.nav-link{
+    color:#001F51;
+    font-weight: 400px;
+    font-size: 18px;
+    letter-spacing: 0%;
+}
+.contact_btn{
+    background-color: #001F51;
+}
+/* Navbar styling ends */
+/* Banner section starts */
+.hero-section {
+    background: url("../images/Banner\ 8.png");
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* Overlay (optional – remove if not needed) */
+.hero-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.25);
+}
+.hero-section .container {
+    position: relative;
+    z-index: 1;
+}
+/* Text Styling */
+.para_1 {
+    color: #001F51;
+    font-size: 100px;
+    font-weight: 400px;
+    font-family: Inter;
+    line-height: 100px;
+    letter-spacing: 0%;
+}
+.para_2{
+    font-size: 100px;
+    font-weight: 400;
+    color: #001F51;
+    line-height: 56px;
+    letter-spacing: 0%;
+}
+.span_1{
+    color: #d40000;
+    font-style: italic;
+    font-size: 100px;
+    font-weight: 400px;
+    letter-spacing: 0%;
+}
+.hero-text {
+    color: #333;
+    max-width: 500px;
+}
+/* Form Card */
+.form-card {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    width: 468px;
+    height: 475px;
+}
+.form-card h5 {
+    font-weight: 600;
+    color: #0a2d5d;
+}
+/* Inputs */
+.form-control {
+    border-radius: 6px;
+    padding: 10px 12px;
+}
+/* Buttons */
+.btn-danger {
+    background-color: #d40000;
+    border: none;
+}
+.btn-danger:hover {
+    background-color: #b30000;
+}
+/* Banner section ends */
+/* Team section Starts */
+.about-section {
+    background-color: #ffffff;
+}
+/* Image Styling */
+.about-img {
+    border-radius: 20px !important;
+    width: 591px;
+    height: 887px;
+    margin-bottom: -242px;
+    margin-left: -32px;
+}
+/* Title */
+.about-title {
+    font-size: 50px;
+    font-weight: 400;
+    color: #0a2d5d;
+}
+.about-title span {
+    color: #d40000;
+    font-style: italic;
+    font-weight: 400px;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0%;
+}
+/* Text */
+.about-text {
+    color: #555;
+    line-height: 1.7;
+    max-width: 520px;
+}
+/* Button */
+.btn-primary {
+    background-color: #0a2d5d;
+    border: none;
+    border-radius: 6px;
+}
+.btn-primary:hover {
+    background-color: #061e3f;
+}
+/* Banner section Ends */
+/* Loan Product Section Starts */
+/* Section */
+.loan-products {
+    background-color: #f7f7f7;
+}
+/* Title */
+.section-title {
+    font-size: 50px;
+    font-weight: 400;
+    color: #0a2d5d;
+}
+.section-title span {
+    color: #d40000;
+    font-style: italic;
+    font-weight: 400px;
+}
+.section-subtitle {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #000000;
+    line-height: 1.6;
+}
+/* Card */
+.product-card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 18px;
+    text-align: left;
+}
+.product-card img {
+    border-radius: 14px;
+    width: 100%;
+}
+.product-card h6 {
+    font-weight: 600;
+    color: #0a2d5d;
+}
+/* Button Starts */
+.btn-primary {
+    background-color: #0a2d5d;
+    border: none;
+    border-radius: 6px;
+}
+/* Button Ends */
+/* Footer section starts */
+/* Footer Section */
+.site-footer {
+    background-image: url("../images/Background\ Image\ footer\ 1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 0 40px;
+    position: relative;
+}
+/* Dark overlay */
+.site-footer::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(6, 32, 70, 0.85);
+}
+.site-footer .container {
+    position: relative;
+    z-index: 1;
+}
+/* Logo */
+.footer-logo img {
+    width: 312px;
+    height: 85px;
+}
+/* Text */
+.footer-bottom p {
+    font-size: 14px;
+    color: #e0e0e0;
+}
+/* Links */
+.footer-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer-link:hover {
+    text-decoration: underline;
+}
+/* Footer section ends */
+/* Responsive styling starts */
+@media (max-width: 991px) {
+
+    /* Logo */
+    .img_1 {
+        width: 160px;
+        height: auto;
+    }
+
+    /* Hero section height fix */
+    .hero-section .row {
+        min-height: auto;
+        padding: 80px 0;
+    }
+
+    /* Form card */
+    .form-card {
+        width: 100%;
+        height: auto;
+    }
+
+    /* About image */
+    .about-img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+}
+@media (max-width: 768px) {
+
+    /* Hero text scaling */
+    .para_1,
+    .para_2,
+    .span_1 {
+        font-size: 48px;
+        line-height: 1.1;
+    }
+
+    .hero-text {
+        max-width: 100%;
+        font-size: 16px;
+    }
+
+    /* About section text */
+    .about-title,
+    .about-title span {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .about-text {
+        max-width: 100%;
+    }
+
+    /* Loan product title */
+    .section-title {
+        font-size: 36px;
+    }
+
+    /* Footer */
+    .footer-logo img {
+        width: 220px;
+        height: auto;
+    }
+
+    .footer-bottom p {
+        font-size: 14px;
+        text-align: center;
+    }
+}
+@media (max-width: 480px) {
+
+    .para_1,
+    .para_2,
+    .span_1 {
+        font-size: 34px;
+    }
+
+    .about-title,
+    .about-title span,
+    .section-title {
+        font-size: 30px;
+    }
+    .btn {
+        width: 100%;
+    }
+}
+@media (max-width: 320px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    /* Hero text */
+    .para_1,
+    .para_2,
+    .span_1 {
+        font-size: 28px;
+        line-height: 1.1;
+    }
+
+    /* Form spacing */
+    .form-card {
+        padding: 16px;
+    }
+
+    /* Footer logo */
+    .footer-logo img {
+        width: 180px;
+    }
+
+    .footer-bottom p {
+        font-size: 13px;
+    }
+}
+/* Responsive styling Ends */
